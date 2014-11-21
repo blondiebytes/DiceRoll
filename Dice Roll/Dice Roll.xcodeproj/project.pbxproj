@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB460F80195F8F700038E91F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB460F7F195F8F700038E91F /* Foundation.framework */; };
+		EB460F82195F8F700038E91F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB460F81195F8F700038E91F /* CoreGraphics.framework */; };
+		EB460F84195F8F700038E91F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB460F83195F8F700038E91F /* UIKit.framework */; };
+		EB460F8A195F8F700038E91F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB460F88195F8F700038E91F /* InfoPlist.strings */; };
+		EB460F8C195F8F700038E91F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB460F8B195F8F700038E91F /* main.m */; };
+		EB460F90195F8F700038E91F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB460F8F195F8F700038E91F /* AppDelegate.m */; };
+		EB460F93195F8F700038E91F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB460F91195F8F700038E91F /* Main.storyboard */; };
+		EB460F96195F8F700038E91F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB460F95195F8F700038E91F /* ViewController.m */; };
+		EB460F98195F8F700038E91F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB460F97195F8F700038E91F /* Images.xcassets */; };
+		EB460F9F195F8F700038E91F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB460F9E195F8F700038E91F /* XCTest.framework */; };
+		EB460FA0195F8F700038E91F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB460F7F195F8F700038E91F /* Foundation.framework */; };
+		EB460FA1195F8F700038E91F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB460F83195F8F700038E91F /* UIKit.framework */; };
+		EB460FA9195F8F700038E91F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB460FA7195F8F700038E91F /* InfoPlist.strings */; };
+		EB460FAB195F8F700038E91F /* Dice_RollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB460FAA195F8F700038E91F /* Dice_RollTests.m */; };
+		EB460FB6195F91510038E91F /* DieView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB460FB5195F91510038E91F /* DieView.m */; };
+		EB460FB9195F92B10038E91F /* DiceDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB460FB8195F92B10038E91F /* DiceDataController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB460FA2195F8F700038E91F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB460F74195F8F700038E91F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB460F7B195F8F700038E91F;
+			remoteInfo = "Dice Roll";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB460F7C195F8F700038E91F /* Dice Roll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Roll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB460F7F195F8F700038E91F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB460F81195F8F700038E91F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB460F83195F8F700038E91F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB460F87195F8F700038E91F /* Dice Roll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dice Roll-Info.plist"; sourceTree = "<group>"; };
+		EB460F89195F8F700038E91F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB460F8B195F8F700038E91F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB460F8D195F8F700038E91F /* Dice Roll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dice Roll-Prefix.pch"; sourceTree = "<group>"; };
+		EB460F8E195F8F700038E91F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB460F8F195F8F700038E91F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB460F92195F8F700038E91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB460F94195F8F700038E91F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB460F95195F8F700038E91F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB460F97195F8F700038E91F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB460F9D195F8F700038E91F /* Dice RollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice RollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB460F9E195F8F700038E91F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EB460FA6195F8F700038E91F /* Dice RollTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dice RollTests-Info.plist"; sourceTree = "<group>"; };
+		EB460FA8195F8F700038E91F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB460FAA195F8F700038E91F /* Dice_RollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dice_RollTests.m; sourceTree = "<group>"; };
+		EB460FB4195F91510038E91F /* DieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieView.h; sourceTree = "<group>"; };
+		EB460FB5195F91510038E91F /* DieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieView.m; sourceTree = "<group>"; };
+		EB460FB7195F92B10038E91F /* DiceDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceDataController.h; sourceTree = "<group>"; };
+		EB460FB8195F92B10038E91F /* DiceDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceDataController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB460F79195F8F700038E91F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB460F82195F8F700038E91F /* CoreGraphics.framework in Frameworks */,
+				EB460F84195F8F700038E91F /* UIKit.framework in Frameworks */,
+				EB460F80195F8F700038E91F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB460F9A195F8F700038E91F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB460F9F195F8F700038E91F /* XCTest.framework in Frameworks */,
+				EB460FA1195F8F700038E91F /* UIKit.framework in Frameworks */,
+				EB460FA0195F8F700038E91F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB460F73195F8F700038E91F = {
+			isa = PBXGroup;
+			children = (
+				EB460F85195F8F700038E91F /* Dice Roll */,
+				EB460FA4195F8F700038E91F /* Dice RollTests */,
+				EB460F7E195F8F700038E91F /* Frameworks */,
+				EB460F7D195F8F700038E91F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB460F7D195F8F700038E91F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB460F7C195F8F700038E91F /* Dice Roll.app */,
+				EB460F9D195F8F700038E91F /* Dice RollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB460F7E195F8F700038E91F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB460F7F195F8F700038E91F /* Foundation.framework */,
+				EB460F81195F8F700038E91F /* CoreGraphics.framework */,
+				EB460F83195F8F700038E91F /* UIKit.framework */,
+				EB460F9E195F8F700038E91F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB460F85195F8F700038E91F /* Dice Roll */ = {
+			isa = PBXGroup;
+			children = (
+				EB460F8E195F8F700038E91F /* AppDelegate.h */,
+				EB460F8F195F8F700038E91F /* AppDelegate.m */,
+				EB460F91195F8F700038E91F /* Main.storyboard */,
+				EB460F94195F8F700038E91F /* ViewController.h */,
+				EB460F95195F8F700038E91F /* ViewController.m */,
+				EB460F97195F8F700038E91F /* Images.xcassets */,
+				EB460F86195F8F700038E91F /* Supporting Files */,
+				EB460FB4195F91510038E91F /* DieView.h */,
+				EB460FB5195F91510038E91F /* DieView.m */,
+				EB460FB7195F92B10038E91F /* DiceDataController.h */,
+				EB460FB8195F92B10038E91F /* DiceDataController.m */,
+			);
+			path = "Dice Roll";
+			sourceTree = "<group>";
+		};
+		EB460F86195F8F700038E91F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB460F87195F8F700038E91F /* Dice Roll-Info.plist */,
+				EB460F88195F8F700038E91F /* InfoPlist.strings */,
+				EB460F8B195F8F700038E91F /* main.m */,
+				EB460F8D195F8F700038E91F /* Dice Roll-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB460FA4195F8F700038E91F /* Dice RollTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB460FAA195F8F700038E91F /* Dice_RollTests.m */,
+				EB460FA5195F8F700038E91F /* Supporting Files */,
+			);
+			path = "Dice RollTests";
+			sourceTree = "<group>";
+		};
+		EB460FA5195F8F700038E91F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB460FA6195F8F700038E91F /* Dice RollTests-Info.plist */,
+				EB460FA7195F8F700038E91F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB460F7B195F8F700038E91F /* Dice Roll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB460FAE195F8F710038E91F /* Build configuration list for PBXNativeTarget "Dice Roll" */;
+			buildPhases = (
+				EB460F78195F8F700038E91F /* Sources */,
+				EB460F79195F8F700038E91F /* Frameworks */,
+				EB460F7A195F8F700038E91F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dice Roll";
+			productName = "Dice Roll";
+			productReference = EB460F7C195F8F700038E91F /* Dice Roll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB460F9C195F8F700038E91F /* Dice RollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB460FB1195F8F710038E91F /* Build configuration list for PBXNativeTarget "Dice RollTests" */;
+			buildPhases = (
+				EB460F99195F8F700038E91F /* Sources */,
+				EB460F9A195F8F700038E91F /* Frameworks */,
+				EB460F9B195F8F700038E91F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB460FA3195F8F700038E91F /* PBXTargetDependency */,
+			);
+			name = "Dice RollTests";
+			productName = "Dice RollTests";
+			productReference = EB460F9D195F8F700038E91F /* Dice RollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB460F74195F8F700038E91F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kathryn Hodge Software";
+				TargetAttributes = {
+					EB460F9C195F8F700038E91F = {
+						TestTargetID = EB460F7B195F8F700038E91F;
+					};
+				};
+			};
+			buildConfigurationList = EB460F77195F8F700038E91F /* Build configuration list for PBXProject "Dice Roll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB460F73195F8F700038E91F;
+			productRefGroup = EB460F7D195F8F700038E91F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB460F7B195F8F700038E91F /* Dice Roll */,
+				EB460F9C195F8F700038E91F /* Dice RollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB460F7A195F8F700038E91F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB460F98195F8F700038E91F /* Images.xcassets in Resources */,
+				EB460F8A195F8F700038E91F /* InfoPlist.strings in Resources */,
+				EB460F93195F8F700038E91F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB460F9B195F8F700038E91F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB460FA9195F8F700038E91F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB460F78195F8F700038E91F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB460F96195F8F700038E91F /* ViewController.m in Sources */,
+				EB460FB6195F91510038E91F /* DieView.m in Sources */,
+				EB460F90195F8F700038E91F /* AppDelegate.m in Sources */,
+				EB460FB9195F92B10038E91F /* DiceDataController.m in Sources */,
+				EB460F8C195F8F700038E91F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB460F99195F8F700038E91F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB460FAB195F8F700038E91F /* Dice_RollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB460FA3195F8F700038E91F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB460F7B195F8F700038E91F /* Dice Roll */;
+			targetProxy = EB460FA2195F8F700038E91F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB460F88195F8F700038E91F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB460F89195F8F700038E91F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB460F91195F8F700038E91F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB460F92195F8F700038E91F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB460FA7195F8F700038E91F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB460FA8195F8F700038E91F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB460FAC195F8F700038E91F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB460FAD195F8F700038E91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB460FAF195F8F710038E91F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice Roll/Dice Roll-Prefix.pch";
+				INFOPLIST_FILE = "Dice Roll/Dice Roll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB460FB0195F8F710038E91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice Roll/Dice Roll-Prefix.pch";
+				INFOPLIST_FILE = "Dice Roll/Dice Roll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB460FB2195F8F710038E91F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dice Roll.app/Dice Roll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice Roll/Dice Roll-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dice RollTests/Dice RollTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EB460FB3195F8F710038E91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dice Roll.app/Dice Roll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice Roll/Dice Roll-Prefix.pch";
+				INFOPLIST_FILE = "Dice RollTests/Dice RollTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB460F77195F8F700038E91F /* Build configuration list for PBXProject "Dice Roll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB460FAC195F8F700038E91F /* Debug */,
+				EB460FAD195F8F700038E91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB460FAE195F8F710038E91F /* Build configuration list for PBXNativeTarget "Dice Roll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB460FAF195F8F710038E91F /* Debug */,
+				EB460FB0195F8F710038E91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB460FB1195F8F710038E91F /* Build configuration list for PBXNativeTarget "Dice RollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB460FB2195F8F710038E91F /* Debug */,
+				EB460FB3195F8F710038E91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB460F74195F8F700038E91F /* Project object */;
+}
